@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react"
+import './style.css'
 
 const App = () => {
   //state innit
@@ -13,6 +14,7 @@ const App = () => {
     .then(result => result.json())
     .then(data => setNews(data.hits))
     .catch(error => console.log(error))
+    console.log (news)
   }
   useEffect(() => {
     fetchNews()
