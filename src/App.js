@@ -6,7 +6,7 @@ const App = () => {
   const [news, setNews] = useState([])
   const [searchQuery, setSearchQuery] = useState('react')
   const [url, setUrl] = useState(
-        "http://hn.algolia.com/api/v1/search?query=react"
+        "https://hn.algolia.com/api/v1/search?query=react"
   )
   //fetch news
   const fetchNews = () => {
@@ -25,7 +25,7 @@ const App = () => {
   }
   const handleSubmit = (e) => {
     e.preventDefault()
-    setUrl(`http://hn.algolia.com/api/v1/search?query=${searchQuery}`)
+    setUrl(`https://hn.algolia.com/api/v1/search?query=${searchQuery}`)
   }
   const searchBar = () => (
     <form onSubmit={handleSubmit}>
