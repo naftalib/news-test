@@ -3,3 +3,5 @@ I used this project as the playground to get familiar with and perfect using hoo
 The app initializes with an API call to the hacker news site and returns the titles of the entered serach query which is defaulte to serach for any posts on react. 
 
 Search freely and see what titles come up! 
+
+I hope to add more functionality soon!
