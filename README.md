@@ -4,4 +4,6 @@ The app initializes with an API call to the hacker news site and returns the tit
 
 Search freely and see what titles come up! 
 
-I hope to add more functionality soon!
+I hope to add more functionality to this app soon!
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
